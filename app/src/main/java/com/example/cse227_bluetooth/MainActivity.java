@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         
         if (bluetoothAdapter!= null)
         {
-            Toast.makeText(this, "Bluetooth Supported", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Bluetooth is Supported in your device", Toast.LENGTH_SHORT).show();
             if (!bluetoothAdapter.isEnabled())
             {
 
